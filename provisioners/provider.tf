@@ -10,9 +10,9 @@ terraform {
 
 // configure the provider
 provider "azurerm" {
-  subscription_id = ""
-  tenant_id       = ""
-  client_id       = "" # appID
-  client_secret   = "" # password
+  subscription_id = "Enter subscription_id"
+  tenant_id       = "tenant_id"
+  client_id       = client_id"" # appID
+  client_secret   = "client_secret" # password
   features {}
 }
